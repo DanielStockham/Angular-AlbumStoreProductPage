@@ -9,9 +9,9 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { Route, RouterModule } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
-const appRoutes: Route[] = [
+const appRoutes: Routes[] = [
   {
     path: '',
     redirectTo: '/products',
